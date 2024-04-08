@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font: "Montserrat", sans-serif;
+  }
+
+.campo-texto {
+    margin: 24px 0;
+}
+
+.campo-texto label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.campo-texto input {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.1);
+    width: 100%;
+    border: none;
+    font-family: var(--font);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    padding: 24px;
+    box-sizing: border-box;
+}
