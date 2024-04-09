@@ -3,10 +3,15 @@ import CampoTexto from '../CampoTexto';
 import ListaSuspensa from '../ListaSuspensa';
 
 const Formulario = () => {
+
     const times = [
-        'Nome 1',
-        'Nome 2',
-        'Nome 3'
+        'Programação',
+        'Front-End',
+        'Data Science',
+        'Devops',
+        'UX e Design',
+        'Mobile',
+        'Inovação e Gestão'
     ]
 
     return (
@@ -15,10 +20,10 @@ const Formulario = () => {
                 <h2>
                     Preencha os campos para criar o card do colaborador: 
                 </h2>
-                <CampoTexto label='Nome' placeholder='Digite seu nome' />
-                <CampoTexto label='Cargo' placeholder='Digite seu cargo' />
-                <CampoTexto label='Imagem' placeholder='Digite o endereço da imagem' />
-                {/* <ListaSuspensa itens={times}/> */}
+                <CampoTexto label="Nome" placeholder='Digite seu nome' />
+                <CampoTexto label="Cargo" placeholder='Digite seu cargo' />
+                <CampoTexto label="Imagem" placeholder='Digite o endereço da imagem' />
+                <ListaSuspensa label="Time" item={times}/>
             </form>
         </section>
     )
