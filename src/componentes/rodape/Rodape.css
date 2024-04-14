@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    color: #fff;
+    background: #6278F7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+    
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
